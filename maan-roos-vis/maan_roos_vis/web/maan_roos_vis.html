@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Maan roos vis</title>
+    <link rel="stylesheet" href="maan_roos_vis.css">
+  </head>
+  <body>
+    <h1>Maan Roos Vis</h1>
+    <table id="gamePanel">
+    <caption id="word" class="word_style">Lees mij</caption>
+    <tr>
+      <td>
+      <img alt="Image 1" id="image1" width="200" style="cursor: pointer;"/>
+      </td>
+      <td>
+      <img alt="Image 2" id="image2" width="200" style="cursor: pointer;"/>
+      </td>
+      <td>
+      <img alt="Image 3" id="image3" width="200" style="cursor: pointer;"/>
+      </td>
+    </table>
+    <div id="scoreLine" hidden="true">
+    <p>Score: <span id="score" class="score_style"></span></p>
+    <button id="newGame">Nog een keer!</button>
+    </div>
+    <script type="application/dart" src="maan_roos_vis.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

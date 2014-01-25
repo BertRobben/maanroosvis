@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<polymer-element name="game-container">
+  <template>
+    <h1>{{title}}</h1>
+    <div id="gamePanel"></div>
+    <div id="selectionPanel">
+    <select id="gameSelect">
+      <option value="click-game">Test</option>
+      <option value="zoek-woord">Woordje zoeken</option>
+      <option value="zoek-letters">Zoek letters</option>
+    </select>
+    </div>
+    <div id="scorePanel">
+      <p>Score: <span id="score" class="score_style">{{score}}</span></p>
+      <button id="newGame" on-click="{{start}}">Nog een keer!</button>
+    </div>    
+  </template>
+  <script type="application/dart" src="game_container.dart"></script>
+</polymer-element>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Zoek De Letters</title>
+    <link rel="stylesheet" href="zoek_letters.css">
+  </head>
+
+  <body>
+
+    <div>
+    <div style="float:left;">  
+      <img alt="Image" id="image" width="400" />
+    </div>
+    <div class="datagrid" style="float:left;">
+    <table id="lettersTable">
+    <tr>
+    <td>
+          <div class="dragLetter" draggable="true" style="cursor: pointer;">a</div>
+          </td>
+    <td>
+          <div class="dragLetter" draggable="true" style="cursor: pointer;">ee</div>
+          </td>
+    <td>
+          <div class="dragLetter" draggable="true" style="cursor: pointer;">b</div>
+          </td>
+    </tr>
+    <tr><td>
+          <div class="dragLetter" draggable="true" style="cursor: pointer;">e</div>
+          </td>
+    <td>
+          <div class="dragLetter" draggable="true" style="cursor: pointer;">ie</div>
+          </td>
+    <td>
+          <div class="dragLetter" draggable="true" style="cursor: pointer;">A</div>
+          </td>
+    </tr>
+    <tr><td>
+          <div class="dragLetter" draggable="true" style="cursor: pointer;">C</div>
+          </td>
+    <td>
+          <div class="dragLetter" draggable="true" style="cursor: pointer;">A</div>
+          </td>
+    <td>
+          <div class="dragLetter" draggable="true" style="cursor: pointer;">A</div>
+          </td>
+    </tr>
+    </table>
+    </div>
+    </div>
+    <div style="clear:both;">
+    <table id="word" class="word" style="float:left;">
+      <tr>
+      </tr>
+    </table>
+    <button id="next"><img alt="next" src="pijl.svg" width="50"></button>
+    </div>
+    <script type="application/dart" src="zoek_letters.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+
+</html>

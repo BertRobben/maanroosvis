@@ -1,0 +1,28 @@
+
+body {
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+h1, p {
+  color: #333;
+}
+
+#sample_container_id {
+  width: 100%;
+  background-color: #fff;
+}
+
+.word_style {
+  font-size: 40pt;
+  line-height: 1.2em;
+}
+
+.score_style {
+  font-size: 40pt;
+  line-height: 1.2em;
+}

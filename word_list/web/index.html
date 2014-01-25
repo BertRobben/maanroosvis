@@ -1,0 +1,52 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf8">
+    <script type="application/dart" src="client.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+    <style type="text/css">
+    body {
+      font-family: helvetica;
+    }
+    h2 {
+      font-size: 14pt;
+    }
+    header, footer {
+      margin: 50px;
+      text-align: center;
+    }
+    #results {
+      margin: auto;
+      width: 750px;
+    }
+    div {
+      margin: 20px;
+    }
+    .clear {
+      clear: both;
+    }
+    .result {
+      margin: 10px;
+      padding: 10px;
+      height: 158px;
+      width: 208px;
+      float: left;
+      border: 1px solid gray;
+      border-radius: 4px;
+      font-size: 10pt;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Zoek images</h1>
+      <div>Selecteer de gewenste image voor elk woord.</div>      
+      <button id="saveButton">Save</button>
+      <div id="status"></div>
+    </header>
+    <div id="results">
+    </div>
+    <div class="clear"></div>
+    <footer>Hoort bij maan-roos-vis</footer>
+  </body>
+</html>
